@@ -1,0 +1,19 @@
+How to use the Application
+
+1. Run the application
+- Be sure that the image name matches the name of the image defined in the code.
+2. Enter in a name for the group, please be sure you can tell at a glance what month and year it is referring to to save time
+- Example: March 1856
+- Note: You will not be able to repeate names
+4. Click the "New Group" button to create the group 
+5. If you're confident in your presicion, then hover the mouse over where you want the dots to be and click '0' for origin, '1' for red, '2' for blue, and '3' for black.
+- Can click on the maginfying glass at the bottom of the application and then crop the area to zoom in so you can be more precise in dot placement
+6. Click "Save Group" to save the dots on the image and coordinates to that group.
+- Click the "Reset" button to reset the image to default porportions or the hand icon to drag the imaage to the next section
+7. Repeate steps 2 to 6 until you're done
+- If needed, you can click on a previous group under the saved groups section and it will load the saved group, including the dots on the images and the coordinates.
+- If you don't see the group you need to load, then scroll up or down to find it
+8. Click the "Save All" button and it will save all the groups into a yaml file
+9. If your previously saved yaml file doesn't load the saved groups into the application, make sure that the name is correct. The current yaml file name that's saved in the code is: "groups.yaml"
+- If you wish for a different name, then go to line 16 of "image_coords.py" and change the `self.yaml_file` to equal what you want, within the quotation marks " "
+10. If you have already saved some groups to a yaml file, then next time you open it, it will load from the yaml file to show the groups you have already saved.
